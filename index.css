@@ -1,0 +1,148 @@
+/* 初始化代码 */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* 初始化小li */
+li{
+list-style: none;
+}
+/* 初始化a */
+a{
+    text-decoration: none;
+    /* 让a标签的下划线消失 */
+}
+/* 身体更改背景颜色 */
+body{
+    background-color: #b3f2de;
+}
+/* 头部模块 */
+.header{
+ width: 1000px;
+ /* background-color: red; */
+ margin: 0px auto;
+ vertical-align:middle;
+ text-shadow: rebeccapurple;
+}
+/* 左边的盒子 */
+.left{
+    width: 300px;
+    height: 495px;
+    background-color: #d8f7ed;
+    border-radius:0px 20px 20px 20px;
+    float: left;
+}
+/* 右边的盒子 */
+.right{
+    width: 680px;
+    float: right;
+    background-color: #d8f7ed;
+    border-radius:20px 0px 0px 20px;  
+}
+/* 头像模块开始 */
+.avatar{
+    width: 50%;
+    margin: 20px auto;
+}
+.avatar img{
+    width: 80%;
+    height: 110px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 50%;
+}
+.avatar p{
+    text-align: center;
+    color: #4b6798;
+    font-weight: 600;
+    padding: 10px 0px 0px 0px;
+}
+/* 头像结束 */
+/*  */
+.Index-models{
+    width: 100%;
+    margin: 0 auto;
+    height: 200px;
+}
+.Index-models .Index-model li{
+text-align: center;
+padding: 13px;
+}
+.Index-models .Index-model li a{
+    color:#4d6899;
+    font-weight: 550;
+}
+.Index-model li:hover{
+    background-color: #f4fdfa;
+    border-radius: 10px;
+}
+.right-images{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.right-images img{
+    width: 100%;
+    height: 350px;
+    border-radius: 20px;
+}
+.font{
+    margin: 0 auto;
+    text-align: center;
+   
+}
+.font h4{
+    margin-top: 20px;
+    color: #4e6a99;
+}
+.viedo{
+    width: 100%;
+
+}
+.viedo video{
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+}
+.left-buttom{
+    width: 300px;
+    height: 500px;
+    float: left;
+    background-color: #d8f7ed;
+    border-radius:0px 20px 20px 20px;
+
+}
+.left-buttom img{
+width: 200px;
+margin-top: 40px;
+height: 300px;
+border-radius:0px 20px 20px 20px;
+
+}
+.right-font{
+    float: right;
+    width: 96px;
+    margin-top: 40px;
+}
+.left-buttom  a{
+    float: right;
+    font-weight: 550;
+    color: #4b6798;
+    width: 96px;
+    padding-top: 20px;
+}
+.titleimg{
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 20px;
+}
+.titleimg p{
+    color:#4e6a99;
+}
+.titleimg img{
+    width: 50%;
+    border-radius:20px;
+    margin: 0 auto;
+    display: block;
+}
